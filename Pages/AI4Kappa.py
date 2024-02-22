@@ -76,7 +76,6 @@ def app():
                 speed_df = calk.cal_speed(whole_info_df)
                 gamma_df = calk.cal_gamma(speed_df)
                 K_df = calk.by_formula(gamma_df )
-                st.write("---")
                 ls = ["Number of Atoms", "Density (g cm-3)", "Volume (Å3)", "the total atomic mass (amu)",
                       "Bulk modulus (GPa)", "Shear modulus (GPa)", "Sound velocity of the transverse wave (m s-1)",
                       "Sound velocity of the longitude wave (m s-1)", "Speed of sound (m s-1)",
